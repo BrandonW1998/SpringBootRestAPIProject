@@ -57,6 +57,8 @@ public class Item {
 	public void setDepartment(String department) {
 		this.dept = department;
 	}
+	
+	// Data in String format
 	@Override
 	public String toString() {
 		return "Item [idNo=" + idNo + ", name=" + name + ", price=" + price + ", dept=" + dept + "]";
